@@ -9,3 +9,5 @@ here's a command to help you look at the git history:
 `git log --oneline --graph --decorate --all`
 
 - `switch -c <name>`: create and move HEAD to the branch <name>
+
+- `fetch --prune`: sync your work with the remote, and removes branches that were deleted from the remote
